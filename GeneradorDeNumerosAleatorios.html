@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Numeros</title>
+    <link rel="stylesheet" href="css/styleGenerador.css">
+    <link rel="stylesheet" href="css/menuNav.css">
+</head>
+<body>
+    <nav>
+        <div id="menuSticky"><ul>
+            <a id="logo" href="index.html"><img src="img/RandomathLogo.png"></a>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a id="herramientas" href="index.html">Herramientas</a>
+                <ul id="listaHerramientas">
+                    <li>
+                        <a href="calculadora.html">Calculadora Aritmetica</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="ecuaciones.html">Calculadora Ecuaciones Cuadraticas</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="transformador.html">Transformador de Unidades</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="GeneradorDeNumerosAleatorios.html">Generador de Numeros Aleatorios</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="index.html">Sobre Nosotros</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <main>
+        <h1 id="titulo">
+            Generador de numeros aleatorios
+        </h1>
+        <hr>
+        <div id="contenedor">
+        
+            <h2>Desde</h2>
+            <input id="valorMinimo" type="number" placeholder="Ingrese un valor...">
+
+            <h2>Hasta</h2>
+            <input id="valorMaximo" type="number" placeholder="Ingrese un valor...">
+        </div>
+        <button id="generar">Generar</button>
+    
+            <input type="text" id="resultado" value="" disabled>
+        
+        <hr>
+    </main>
+    <script src="javascript/numerosAleatorios.js"></script>
+</body>
+</html>

@@ -1,4 +1,6 @@
 //Variables
+
+let borrar= document.querySelector('#delete');
 let input = document.querySelector('#input');
 let uno = document.querySelector('#uno');
 let dos = document.querySelector('#dos');
@@ -32,7 +34,7 @@ siete.addEventListener('click', () =>{input.value +=7});
 ocho.addEventListener('click', () =>{input.value +=8});
 nueve.addEventListener('click', () =>{input.value +=9});
 cero.addEventListener('click', () =>{input.value +=0});
-coma.addEventListener('click', () =>{input.value +="."});
+coma.addEventListener('click', () =>{if(input.value.slice(-2) !== ".."){input.value +="."}});
 
 //funciones
 function potenciando(){
@@ -61,7 +63,11 @@ igual.addEventListener('click', () =>{
     resultado = eval(input.value);
     input.value = resultado;});
 
-// Limpiar
+// Limpiar y Borrar
 clear.addEventListener('click', () => {input.value=""});
+
+borrar.addEventListener('click', () => {
+    input.value= input.value.slice(0, -1)
+});
 
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuaciones Cuadraticas</title>
+    <link rel="stylesheet" href="css/styleEcuaciones2.css">
+    <link rel="stylesheet" href="css/menuNav.css">
+</head>
+<body>
+    <nav>
+        <div id="menuSticky"><ul>
+            <img src="img/RandomathLogo.png">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a id="herramientas" href="index.html">Herramientas</a>
+                <ul id="listaHerramientas">
+                    <li>
+                        <a href="calculadora.html">Calculadora Aritmetica</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="ecuaciones.html">Calculadora Ecuaciones Cuadraticas</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="transformador.html">Transformador de Unidades</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="GeneradorDeNumerosAleatorios.html">Generador de Numeros Aleatorios</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="index.html">Sobre Nosotros</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+        <main>
+            <h1>Resolver Ecuaciones cuadraticas</h1>
+
+            <hr>
+        
+            <h3>¿Cómo usar?</h3>
+                <p>Las ecuaciones cuadraticas son un tipo de ecuacion en la que se encuentran un termino X^2, X y un termino independiente de X, todo esto igualado a 0.</p>
+                <p>Por lo que para hacer uso de esta calculadora, se debe colocar el valor que acompaña a cada "X" y el termino independiente dentro de cada casilla.</p>
+            <h3>Ejemplo:</h3>
+                <p>2x^2 + 5x + 3 = 0.</p>
+                <p>A= 2, B=5, C=3</p>
+                <hr>
+                <div id="terminos">
+                    <h2>A (x^2)</h2>
+                    <h2>B (x)</h2>
+                    <h2>C (Termino Independiente)</h2>
+                </div>
+
+                <div id="inputsValores">
+                    <input type="number" id="a" placeholder="Valor de A">
+                    <p>+</p>
+                <input type="number" id="b" placeholder="Valor de B">
+                <p>+</p>
+                <input type="number" id="c" placeholder="Valor de C">
+                </div>  
+                
+            <br>
+                <button id="resolver">Resolver</button>
+            <h3>Formula</h3>
+            <p>(-b ± √ ( b²-4ac ) ) / (2a)</p>
+            <h3>Resultado</h3>
+                <input type="text" id="resultado" readonly>
+            <p>Las ecuaciones cuadraticas tienen 2 soluciones, una sumando y otra restando, por lo que x1 es el resultado sumando y x2 el resultado restando</p>
+        </main>
+        <script src="javascript/ecuaciones2.js"></script>
+</body>
+</html>

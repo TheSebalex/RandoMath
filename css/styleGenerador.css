@@ -58,7 +58,7 @@ button{
     border: none;
     font-size: 5vw;
     color: white;
-    margin: auto;
+    margin: 2% auto;
     background-color: rgb(102, 0, 116);
     border-radius: 15vw;
     transition: background-color,color, .2s ease-out;

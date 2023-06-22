@@ -2,8 +2,9 @@
     list-style: none;
     font-size: 2vw;
     font-family: montserrat;
-    display: grid;
-    grid-template-columns: 40% 20% 20% 20%;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 35% 20% 20% 20% 5%;
     margin: 0;
     text-align: right;
 }
@@ -18,12 +19,6 @@
     right: 0;
     padding-right: 4vw;
     z-index: 1000;
-}
-
-#menuSticky img{
-    width: 20vw;
-    margin: 0;
-    padding: 0;
 }
 
 #menuSticky li{
@@ -44,10 +39,10 @@
 }
 
 #listaHerramientas{
-    display: none;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     position: fixed;
-    left: 60%;
-    right: 15%;
+    left: 45%;
+    right: 35%;
     background-color: #0c2a3d;
     padding: 2%;
     list-style: none;
@@ -55,12 +50,75 @@
     color: white;
     text-decoration: none;
     text-align: center;
+    transition: clip-path .5s ease;
+    
 }
 
 nav div li:hover #listaHerramientas{
-    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition: all 1s ease;
 }
 
-#logo{
+.logo{
     text-align: left;
+}
+
+.logo img{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+.menuResponsive > img{
+    width: 4.5vw;
+}
+
+.icono{
+    display: none;
+}
+
+#icono{
+    margin: auto;
+}
+
+.listaResponsive{
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+     background-color: rgb(1, 76, 93);
+     padding: 5%;
+    list-style: none;
+    text-align: left;
+    font-size: 5vw;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    transition: clip-path .5s;
+}
+
+.listaResponsive li{
+    margin: 5vw auto;
+}
+
+.desplegar{
+    clip-path: polygon(100% 0, 0 0, 1% 100%, 100% 100%);
+    transition: all .5s;
+}
+
+.esconderOpciones{
+    display: none;
+}
+
+.logoResponsive img{
+    width: 30vw;
+    transition: width .2s ease;
+}
+
+.listaResponsive li img{
+    width: 5vw;
+    margin: 0;
+}
+
+#contenedorSvg{
+    margin: 0;
+    padding: 0;
 }

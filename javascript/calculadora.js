@@ -36,6 +36,12 @@ nueve.addEventListener('click', () =>{input.value +=9});
 cero.addEventListener('click', () =>{input.value +=0});
 coma.addEventListener('click', () =>{if(input.value.slice(-2) !== ".."){input.value +="."}});
 
+//funciones
+function potenciando(){
+    let largoString = input.value.length
+}
+
+
 //Eventos > Operaciones y Condicionales
 suma.addEventListener('click', () =>{if(input.value.slice(-1) !== "+"){input.value +="+"}});
 

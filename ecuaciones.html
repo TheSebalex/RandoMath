@@ -10,12 +10,13 @@
 </head>
 <body>
     <nav>
-        <div id="menuSticky"><ul>
-            <a id="logo" href="index.html"><img src="img/RandomathLogo.png"></a>
-            <li>
+        <div id="menuSticky">
+            <ul>
+            <a id="logo" class="logo" href="index.html"><img src="img/RandomathLogo.png"></a>
+            <li class="menu">
                 <a href="index.html">Inicio</a>
             </li>
-            <li>
+            <li class="menu">
                 <a id="herramientas" href="index.html">Herramientas</a>
                 <ul id="listaHerramientas">
                     <li>
@@ -35,8 +36,25 @@
                     </li>
                 </ul>
             </li>
-            <li>
+            <li class="menu">
                 <a href="index.html">Sobre Nosotros</a>
+            </li>
+            <li class="menuResponsive">
+                <img src="img/menu-three-outlined-rounded-lines-symbol_icon-icons.com_73215.svg" class="icono" id="icono">
+                <ul class="listaResponsive">
+                    <li id="contenedorSvg">
+                        <img id="ex" src="img/ex.svg">
+                    </li>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Herramientas</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Sobre Nosotros</a>
+                    </li>
+                </ul>
             </li>
         </ul>
         </div>
@@ -76,5 +94,6 @@
             <p>Las ecuaciones cuadraticas tienen 2 soluciones, una sumando y otra restando, por lo que x1 es el resultado sumando y x2 el resultado restando</p>
         </main>
         <script src="javascript/ecuaciones2.js"></script>
+        <script src="/javascript/responsive.js"></script>
 </body>
 </html>

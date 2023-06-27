@@ -199,7 +199,7 @@ function convertirVolumen(){
 
     //El segundo Switch convierne la unidad de metros  la unidad seleccionada en el select2 y se asigna el valor al input #unidadDistancia2
 
-    switch(selectorDistancia2.value){
+    switch(selectorVolumen2.value){
         case "1": resultadoVolumen= resultadoLitros * 0.001;
         inputVolumenN2.value= resultadoVolumen;
         break;

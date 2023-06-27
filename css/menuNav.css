@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 #menuSticky > ul{
     list-style: none;
     font-size: 2vw;
@@ -110,7 +114,6 @@ nav div li:hover #listaHerramientas{
 
 .logoResponsive img{
     width: 30vw;
-    transition: width .2s ease;
 }
 
 .listaResponsive li img{

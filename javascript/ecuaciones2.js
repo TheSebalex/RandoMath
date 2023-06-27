@@ -15,12 +15,14 @@ let funcionResolver= function(a, b, c){
     let dividendo= 2*a;
     let resultado1= sumando / dividendo;
     let resultado2= restando / dividendo;
+    let resultadoFixed1= resultado1.toFixed(2);
+    let resultadoFixed2= resultado2.toFixed(2)
 
 if(isNaN(raiz)) {
     resultado1= 'X es compleja o imaginario';
     resultado.value= resultado1;
 } else {
-    resultado.value= `x1= ${resultado1}  y  x2= ${resultado2}`;
+    resultado.value= `x1= ${resultadoFixed1}  y  x2= ${resultadoFixed2}`;
 }}
 
 resolverBoton.addEventListener('click', () => {funcionResolver(numero1.value, numero2.value, numero3.value)});

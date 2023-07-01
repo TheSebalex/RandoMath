@@ -24,11 +24,10 @@ main {
 }
 
 #titulo{
-    font-size: 4vw;
     background-color: rgb(251, 155, 0);
-    width: fit-content;
-    padding: 1vw 1.5vw;
-    border-radius: 3vw;
+    width: 70%;
+    padding: 1vw 3vw;
+    border-radius: 10vw;
     color: white;
     margin:auto;
 }

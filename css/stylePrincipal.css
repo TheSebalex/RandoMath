@@ -24,6 +24,7 @@ main {
 }
 
 #titulo{
+    font-size: 4vw;
     background-color: rgb(251, 155, 0);
     width: fit-content;
     padding: 1vw 1.5vw;

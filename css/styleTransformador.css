@@ -28,12 +28,12 @@ main{
     margin-top: 5%
 }
 select{
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
     margin: 3%;
     background-color: rgb(251, 155, 0);
     border-radius: 10px;
-    width: 50%;
+    width: 70%;
     transition: all 0.2s ease-in-out;
 }
 
@@ -45,8 +45,9 @@ input:hover, select:hover{
 }
 
 input{
-    font-size: 2vw;
-    width: 46%;
+    font-size: 4vw;
+    width: 80%;
+    height: 10%;
     color: white;
     background-color: rgb(0, 0, 0);
     border: none;

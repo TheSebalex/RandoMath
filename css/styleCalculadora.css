@@ -4,76 +4,97 @@
 
 #titulo {
     font-size: 4vw;
-    margin-top: 0px;
-    text-align: center;
+    background-color: rgb(251, 155, 0);
+    width: fit-content;
+    padding: 1vw 1.5vw;
+    border-radius: 3vw;
     color: white;
-}
-
+    margin:auto;
+    margin-bottom: 2vw;
+    }
 hr{
     margin-bottom:5vw
 }
 
 body{
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(238, 238, 238);
 }
 
 main {
     margin: 10%;
     text-align: center;
     width: auto;
-    background-color: rgb(8, 26, 37);
     padding: 5%;
     padding-bottom: 10%;
     border-radius: 2vw;
 }
 
+#calculadora{
+    background-color: rgb(251, 155, 0);
+    padding: 5%;
+    margin: auto;
+    width: 40%;
+    border-radius: 5vw;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.486);
+}
+
 button{
-    width: 9%;
+    width: 22%;
     height: 6vw;
     padding: 1% 0%;
     margin: 0.3%;
-    background-color: rgb(32, 149, 178);
+    background-color: rgb(255, 255, 255);
     border:none;
     border-radius: 50%;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 3vw;
     transition: background-color 0.2s ease-in-out;
 
 }
 #clear {
-    background-color:rgb(255, 174, 0);
+    background-color:rgb(27, 27, 27);;
     margin-top: 1vw;
+    color: white;
 }
 
 #delete{
-    background-color:rgb(255, 145, 0);
+    background-color:rgb(27, 27, 27);
+    color: white;
     font-size: 2.5vw;
 }
 
 #igual {
-    background-color: rgb(235, 55, 0);
+    background-color: rgb(250, 0, 0);
+    color: white;
 }
 
 #sumar, #restar, #multiplicar, #dividir, #raiz, #potencia{
-    background-color: rgb(60, 0, 138);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 input{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 3vw;
-    padding: 0% 4%;
-    width: 32%;
+    padding: 0% 10%;
+    width: 75%;
     height: 6vw;
     border-radius: 10vw;
-    margin-bottom: 2%;
-    background-color: rgb(102, 0, 116);
+    margin-bottom: 8%;
+    background-color: rgb(255, 255, 255);
     border: none;
-    box-shadow: 0px 0px 2px 3px rgb(126, 126, 126);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.329);
 }
 
-#igual:hover, button:hover, #sumar:hover, #restar:hover,#raiz:hover, #multiplicar:hover, #dividir:hover, #clear:hover{
+#igual:hover, #sumar:hover, #restar:hover,#raiz:hover, #multiplicar:hover, #dividir:hover, #clear:hover, #delete:hover, #potencia:hover{
     background-color: white;
     color: black;
+    transition: all 0.2s ease-out
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: all 0.2s ease-out
 }

@@ -7,7 +7,14 @@ p{
 }
 
 h1{
-    font-size: 4vw;
+    font-size: 3.5vw;
+    background-color: rgb(251, 155, 0);
+    width: fit-content;
+    padding: 1vw 1.5vw;
+    border-radius: 3vw;
+    color: white;
+    margin:auto;
+    margin-bottom: 2vw;
 }
 
 h2{
@@ -19,14 +26,13 @@ h3{
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    
+    background-color: rgb(238, 238, 238);
 }
 
 main {
-    color: white;
     text-align: center;
     width: auto;
-    background-color: rgb(8, 26, 37);
     padding: 5%;
     margin: 10%;
     border-radius: 2vw;
@@ -45,7 +51,7 @@ main {
     color: white;
     font-size: 4vw;
     border: black;
-    transition: background-color,color, .2s ease-out;
+    background-color: rgb(251, 155, 0);
 }
 button{
     font-size: 3vw;
@@ -63,12 +69,12 @@ button{
     font-size: 5vw;
     color: white;
     margin: 2% auto;
-    background-color: rgb(102, 0, 116);
+    background-color: black;
     border-radius: 15vw;
     transition: background-color,color, .2s ease-out;
 }
 #resultado:hover, #contenedor input:hover, button:hover{
-    background-color: white;
+    background-color: rgb(134, 134, 134);
     color: black;
     transition: all .2s ease-in;
 }

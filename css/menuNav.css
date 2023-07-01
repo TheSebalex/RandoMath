@@ -14,7 +14,7 @@
 }
 
 #menuSticky{
-    background-color: #0c2a3d;
+    background-color: #ff8800;
     padding: 1%;
     margin: 0;
     position: fixed;
@@ -30,7 +30,7 @@
 }
 
 #menuSticky li a:hover{
-    color: rgb(251, 155, 0);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     transition:all .2s ease;
 
@@ -47,7 +47,8 @@
     position: fixed;
     left: 45%;
     right: 35%;
-    background-color: #0c2a3d;
+    background-color: #ff8800;
+    border-radius: 1vw;
     padding: 2%;
     list-style: none;
     list-style: none;
@@ -90,7 +91,7 @@ nav div li:hover #listaHerramientas{
     right: 0;
     top: 0;
     bottom: 0;
-     background-color: rgb(1, 76, 93);
+     background-color: #db7500;
      padding: 5%;
     list-style: none;
     text-align: left;
